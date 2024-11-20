@@ -13,17 +13,17 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © SKYZOPEDIA                [+]${NC}"
+  echo -e "${BLUE}[+]                  © XinnerNine999                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
-  echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
-  echo -e "Dilarang Keras Share Bebas."
+  echo -e "Pterodactyl Installer,"
+  echo -e "By Xin9."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@skyzodev"
+  echo -e "@htmlxin"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@skyzopedia"
+  echo -e "@htmlxin"
   sleep 4
   clear
 }
@@ -56,20 +56,17 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY RAFATHAR CODE            [+]${NC}"
+  echo -e "${BLUE}[+]               Marketplace XinnerNine            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "skyzodev" ]; then
+  if [ "$USER_TOKEN" = "9xinn" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Token Salah! Beli Kode Token Di Skyzopedia${NC}"
-    echo -e "${YELLOW}TELEGRAM : @skyzodev${NC}"
-    echo -e "${YELLOW}WHATSAPP : +6285624297893${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© Skyzopedia${NC}"
+    echo -e "${GREEN}Token Salah! Beli Kode Token Di Xin${NC}"
+    echo -e "${YELLOW}© XinneR${NC}"
     exit 1
   fi
   clear
@@ -84,10 +81,10 @@ install_theme() {
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
     echo -e "                                                       "
     echo -e "PILIH THEME YANG INGIN DI INSTALL"
-    echo "1. stellar"
-    echo "2. billing"
-    echo "3. enigma"
-    echo "x. kembali"
+    echo "1. Stellar"
+    echo "2. Billing"
+    echo "3. Enigma"
+    echo "x. Kembali"
     echo -e "masukan pilihan (1/2/3/x) :"
     read -r SELECT_THEME
     case "$SELECT_THEME" in
@@ -453,11 +450,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Skyzopedia   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Xinnrx   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Skyzopedia      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Skyzopedia  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Skyzopedia  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Xinn      ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Xinn  ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Xinn  ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
